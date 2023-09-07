@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --main-bg-color: #018491;
+  --head-bg-color: #025464;
+  --main-text-color: #fff ;
+}
+
+.navbar .container-fluid .collapse ul .nav-item {
+  margin-right: 26px;
+}
+.navbar .container-fluid .collapse ul .nav-item .nav-link {
+  font-size: 16px;
+  font-weight: 600;
+}
+.navbar .container-fluid .collapse .d-flex .btn-success {
+  background-color: var(--main-bg-color);
+  border-color: var(--main-bg-color);
+  width: 170px;
+}
+.navbar .container-fluid .collapse .d-flex .btn-success :hover {
+  border-radius: 15px;
+}
+
+.head {
+  padding-top: 40px;
+  height: 603px;
+  top: 88px;
+  background: rgba(2, 84, 100, 0.5019607843);
+}
+.head .row .kiri {
+  margin-bottom: 100px;
+}
+.head .row .kiri .content {
+  color: var(--main-text-color);
+  padding-left: 140px;
+}
+.head .row .kiri .content .btn {
+  width: 362px;
+  height: 50px;
+  top: 444px;
+  left: 229px;
+  border-radius: 15px;
+  border: 1px;
+  color: #018491;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.head .row .kiri .content h2 {
+  font-family: "Poppins", sans-serif;
+  width: 562px;
+  height: 136px;
+  top: 122px;
+  left: 235px;
+  font-weight: 700px;
+  font-size: 45px;
+  line-height: 67.5px;
+}
+.head .row .kiri .content p {
+  font-family: "Poppins", sans-serif;
+  width: 575px;
+  height: 90px;
+  top: 299px;
+  left: 235px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-top: 30px;
+  padding-bottom: 135px;
+}
+.head .row .kanan .img-fluid {
+  width: 500px;
+  height: 500px;
+  top: 94px;
+  left: 811px;
+}/*# sourceMappingURL=main.css.map */
